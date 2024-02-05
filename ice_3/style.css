@@ -1,0 +1,37 @@
+.hero {
+    width: 100%;
+    max-width: 1600px;
+}
+
+.text {
+    text-align: left;
+    color: white
+
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: gray;
+    max-width: 1600px;
+
+}
+
+.grid {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+
+#circle {
+    width: 55%;
+    border-radius: 100%;
+    border-color: rgb(68, 68, 68);
+    border-width: 18px;
+    border-style: solid;
+
+}
+body {
+    background-color: gray;
+}
