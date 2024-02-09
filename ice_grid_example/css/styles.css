@@ -1,0 +1,40 @@
+body {
+    background-color: purple;
+}
+
+section {
+    padding: 30px;
+}
+
+#food {
+    background-color: aqua;
+    grid-row: 1;
+}
+
+.favcolor {
+    background-color: darkmagenta;
+    color: blue;
+    text-align: center;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* max-width: 700px; */
+    border: solid 1px black;
+}
+
+.awesome {
+    background-color: red;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.awesome div {
+    background-color: aquamarine;
+}
+
+footer {
+    display: grid;
+    grid-template-rows: 1/-1;
+}

@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&family=Nunito:ital@1&family=Roboto+Condensed&display=swap');
+
+
 #hero-img {
     width: 100%;
 }
@@ -8,13 +14,18 @@
 .logo {
     width: 80px;
 }
+#logo_link {
+    padding-top: 5px;
+}
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 nav a {
     text-align: center;
     color: #1c4251;
     text-decoration: none;
+    padding: 35px;
 }
 nav a:hover {
     color:rgb(0, 0, 0);
@@ -33,6 +44,10 @@ main section {
 }
 body {
     background-color:#f7f4e8;
+    font-family: Roboto Condensed, Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header{
     background-color:#5FCED2;
@@ -44,6 +59,10 @@ nav a:hover {
     background-color: #fbf1d1;
     color: #1c4251;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
     background-color: #F47A2B;
@@ -54,10 +73,15 @@ nav a:hover {
 }
 .msg {
     background-color:#5FCED2 ;
+    line-height: 1.5em;
+    padding: 35px;
+
 }
 footer {
     background-color: #1c4251;
     color:#F47A2B;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer a {
     color:rgb(159, 159, 159);
@@ -71,13 +95,38 @@ footer p:hover {
 }
 .home-title {
     color:#1c4251;
+    font-family: "Nunito", Georgia, Helvetica;
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4 {
     color:#1c4251;
 }
 .msg h2 {
     color:#1c4251;
+    font-family: "Nunito", Georgia, Helvetica;
 }
 .msg p {
     color:#1c4251;
+    font-size: 0.8em;
+    padding-bottom: 15px;
+}
+
+h2 {
+    margin: 0;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid black;
+}
+
+main section img {
+    box-sizing: border-box;
 }
