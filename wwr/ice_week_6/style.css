@@ -1,0 +1,43 @@
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+img {
+    margin: 0 0;
+}
+
+#tart {
+    position: absolute;
+    top: 20%;
+    /* left: 15%; */
+    font-size: 150px;
+    margin: 0 0;
+    font-weight: 600;
+    letter-spacing: 30px;
+}
+
+#right_side {
+    background-color: gray;
+    font-size: 75px;
+    font-weight: 600;
+    letter-spacing: 15px;
+    color: darkred;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+#container {
+    position: relative;
+    text-align: center;
+}
+
+#cherries {
+    text-align: center;
+}
+
+.cherries {
+    display: block;
+    justify-content: center;
+}
