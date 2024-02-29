@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=REM:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* header  */
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-height: 50px;
+}
+/* body  */
+body {
+    background-color: gray;
+}
+
+.delta-card {
+    margin: 0 auto;
+    max-width: 450px;
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid black;
+    border-radius: 15px;
+    min-height: 400px;
+    max-height: 00px;
+}
+.information {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 45px 90px 1fr 1fr 100px 45px;
+    max-height: 600px;
+
+}
+
+.destination {
+    background-color: #001b36;
+    grid-column: 1/-1;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;fr; */
+    justify-items: center;
+    align-items: center;
+    color: white;
+    font-family: "REM", sans-serif;
+}
+
+.airport-code {
+
+}
+
+.logo {
+
+}
+
+.center {
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+
+}
+
+.barcode {
+    grid-column: 1/4;
+    grid-row: 5/6;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+}
+
+/* footer */
