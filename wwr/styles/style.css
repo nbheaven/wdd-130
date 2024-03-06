@@ -172,7 +172,7 @@ nav {
     margin-top: 100px;
 }
 
-.card-img, .mountains {
+.card-img, .mountains, .river_photo {
     width: 100%;
 }
 
@@ -205,6 +205,41 @@ main {
 .card-img:hover {
     opacity: .6;
     transform: scale(1.1);
+}
+
+.river_col {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.river_photo_right {
+    grid-column: 2/3;
+}
+
+.river_photo_left {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+h3 {
+    margin-top: 75px;
+    text-align: center;
+    color: #1c4251;
+}
+
+.river-p-left {
+    margin-right: 25px;
+    margin-left: 25px;
+    grid-column: 1/2;
+}
+
+.river-p-right {
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+.river-right {
+    grid-column: 2/3;
 }
 
 @media screen and (max-width: 900px) {
