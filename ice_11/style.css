@@ -1,0 +1,33 @@
+#content {
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: Roboto Condensed, Helvetica, sans-serif;
+    color: gray;
+}
+
+.profile{
+    width: 60px;
+    border-radius: 60px;
+    align-self: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+#top_bar {
+    display: grid;
+    grid-template-columns: 1fr 600px  100px 1fr;
+    max-width: 400px;
+    align-items: center;
+}
+
+#bottom_bar {
+    display: grid;
+    grid-template-columns: 45px 45px 20px 630px 30px 1fr;
+    align-items: center;
+}
+
+.right {
+    float: right;
+}
