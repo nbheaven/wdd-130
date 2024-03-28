@@ -2,9 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 
-body {
-    background-color: #E8F3E7;
+body, html {
     font-family: "Raleway", Helvetica, sans-serif;
+    height: 100%;
+    margin: 0;
 }
 
 nav {
@@ -150,7 +151,6 @@ footer {
     background-color: #052C3B;
     color:#E8F3E7;
     padding: 25px 50px;
-    margin-top: 200px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -185,3 +185,58 @@ footer p:hover {
 h4 {
     color:#EECB4A;
 }
+
+.bgimg-1, .bgimg-2, .bgimg-3 {
+    position: sticky;
+    opacity: 0.95;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+  }
+  .bgimg-1 {
+    background-image: url("photos/gold.jpg");
+    min-height: 100%;
+  }
+  
+  .bgimg-2 {
+    background-image: url("photos/silver.jpg");
+    min-height: 100%;
+  }
+  
+  .bgimg-3 {
+    background-image: url("photos/platinum.jpg");
+    min-height: 100%;
+  }
+  
+  .caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+  }
+  
+  .caption span.border {
+    background-color: #EECB4A;
+    color: #052C3B;
+    padding: 18px;
+    font-size: 50px;
+
+  }
+  
+  .parallax {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font: 20px "Lato", sans-serif;
+    color: #111;
+  }
+  
+  /* Turn off parallax scrolling for tablets and phones */
+  @media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+      background-attachment: scroll;
+    }
+  }
