@@ -8,6 +8,10 @@ body, html {
     margin: 0;
 }
 
+body {
+    background-color: #E8F3E7;
+}
+
 nav {
     font-size: 1.5em;
 }
@@ -115,7 +119,10 @@ nav a:hover {
 
 h2, h3 {
     display: inline-flex;
-    padding:5px;font-size:20px;background-color:#EECB4A;color:#052C3B;
+    padding:5px;
+    font-size:20px;
+    background-color:#EECB4A;
+    color:#052C3B;
     
     
 }
@@ -239,4 +246,27 @@ h4 {
     .bgimg-1, .bgimg-2, .bgimg-3 {
       background-attachment: scroll;
     }
+  }
+
+  .contact_grid {
+    grid-row: 2/3;
+  }
+
+  .contact_left {
+    grid-column: 2/3;
+    text-align: center;
+    padding-left: 100px;
+  }
+
+  .contact_right_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-row: 2/3;
+  }
+
+  .contact_grid_full {
+    display: grid;
+    grid-template-columns: 35% 65%;
+    grid-template-rows: 1fr 6fr 2fr;
   }

@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    background-color: #F2F2F2;
+    padding: 0;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #333;
+}
+
+.header_grid {
+    display: grid;
+    grid-template-rows: auto;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+.headerImage {
+    width: 100%;
+    filter: brightness(40%);
+}
+
+.headerContent {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+
+.searchBar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.searchBar label {
+    margin-right: 10px;
+}
+
+.searchBar input[type="text"] {
+    width: 200px;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #purple;
+    border-radius: 5px;
+}
+
+.searchBar button[type="submit"] {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: purple;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.Criteria {
+    background-color: #FFF;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.Criteria h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.criteriaOptions {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-gap: 10px;
+}
+
+.criteriaOption label {
+    display: block;
+}
+
+.criteriaOption select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.apartmentList {
+    text-align: center;
+}
+
+.Apartment_image {
+    margin: 20px;
+    display: inline-block;
+}
+
+.Apartment_image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}

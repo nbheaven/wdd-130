@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Housing | BYU-Idaho</title>
+</head> 
+<body>
+    <header class="header_grid">
+        <img class="headerImage" src="placeholder-1.jpeg" alt="">
+        <div class="headerContent">
+            <h1 class="headerTitle">Housing Locator</h1>
+            <p class="headerDescription">BYU-Idaho offers tools for students to find the best housing to achieve success.</p>
+            <form class="searchBar">
+                <label for="searchBar">Enter Your Department:</label>
+                <input type="text" id="searchBar" placeholder="Department of..." name="searchBar">
+                <button type="submit" id="searchButton">Search</button>
+            </form>
+        </div>
+    </header>
+    <main id="mainContent">
+        <div class="Criteria">
+            <h2>Filtering Criteria</h2>
+            <div class="criteriaOptions">
+                <div class="criteriaOption">
+                    <label for="private-rooms">Private Rooms</label>
+                    <select name="private-rooms" id="private-rooms">
+                        <option value="yes">Yes</option>
+                        <option value="no">No</option>
+                    </select>
+                </div>
+                <div class="criteriaOption">
+                    <label for="washers">In-Unit Laundry</label>
+                    <select name="washers" id="washers">
+                        <option value="yes">Yes</option>
+                        <option value="no">No</option>
+                    </select>
+                </div>
+                <div class="criteriaOption">
+                    <label for="parking">Parking</label>
+                    <select name="parking" id="parking">
+                        <option value="yes">Yes</option>
+                        <option value="no">No</option>
+                    </select>
+                </div>
+                <div class="criteriaOption">
+                    <label for="m/f">Male/Female</label>
+                    <select name="m/f" id="m/f">
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                    </select>
+                </div>
+                <div class="criteriaOption">
+                    <label for="price">Price</label>
+                    <select name="price" id="price">
+                        <option value="$">$</option>
+                        <option value="$$">$$</option>
+                        <option value="$$$">$$$</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="apartmentList">
+            <h1 class="apartmentTitle">Apartment Complex</h1>
+            <div id="searchResults">
+                <div class="Apartment_image">
+                    <p>img text</p>
+                    <img src="https://fakeimg.pl/400x300" alt="image 1">
+                </div>
+                <div class="Apartment_image">
+                    <p>img text</p>
+                    <img src="https://fakeimg.pl/400x300" alt="image 2">
+                </div>
+            </div>
+        </div>
+    </main>
+</body> 
+</html>
